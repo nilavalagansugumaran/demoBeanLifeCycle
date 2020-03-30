@@ -1,0 +1,25 @@
+server:
+  port: 9007
+management:
+  server.port: 9008
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+contact:
+  name: nila
+  age: 21
+  address:
+    number: 36
+    postcode: rg40
+
+braclays:
+  interest: 0.75
+  available: true
+
+lloyds:
+  interest: 0.68
+  available: false
